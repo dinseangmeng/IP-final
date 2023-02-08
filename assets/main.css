@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+body {
+  font-family: "Lucida Console", monospace;
+  width: 100%;
+  min-height: 100vh;
+}
+.container {
+  width: 80%;
+  min-height: 600px;
+  padding: 15px;
+  margin: auto;
+  border: 1px solid grey;
+  text-align: center;
+}
+h2 {
+  margin: auto;
+}
+/* --- Menu --- */
+ul.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  padding: 0px 16px;
+  text-decoration: none;
+}
+li.active {
+  text-decoration: underline;
+  color: #2b78e4;
+}
+/* --- Recipe Template --- */
+.recipe {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.recipe_infor , .infor{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.recipe_infor img {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 1rem;
+  /* width: 450px; */
+}
+.recipe_infor h1{
+  font-size: 1.5rem;
+}
+
+
+/* --- The button --- */
+#button-generate {
+  margin-top: 200px;
+  background-color: #009e0f;
+  color: white;
+  padding: 7px;
+}
+.step{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items:start; */
+  text-align: left;
+}
+.step-title{
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: bold;
+  align-items: center;
+  gap: .6rem;
+}
+.step-title span{
+  display: flex;
+  align-items: center;
+  
+}
+.step-title span svg{
+  --size:1.1rem;
+  width: var(--size);
+  height: var(--size);
+
+}
+footer{
+  margin-top: 2rem;
+}
+footer h1{
+    text-align: left;
+    font-size: 1.4rem;
+}
+.box_wrapper{
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  
+
+}
+.box_wrapper button{
+  width: 32%;
+  padding: .6rem .7rem;
+  word-wrap: keep-all;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 300ms;
+}
+.box_wrapper button:hover{
+  background-color: #222222;
+  color: white;
+}
+
+@media only screen and (max-width: 800px){
+  .recipe{
+    flex-direction: column ;
+  }
+}
