@@ -18,8 +18,20 @@ body {
   border: 1px solid grey;
   text-align: center;
 }
-h2 {
+.mainTitle {
   margin: auto;
+  position: relative;
+}
+.mainTitle::after{
+  content: "";
+  width: 6%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  border-radius: 999px;
+  transform: translateX(-50%);
 }
 /* --- Menu --- */
 ul.menu {

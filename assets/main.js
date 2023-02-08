@@ -21,6 +21,76 @@ const mainRecipes=new Recipe(
     ,
     "Transfer pork chops to a plate. Increase heat to medium and boil pan juices in the skillet until thickened, whisking often, about 3 minutes. Top pork chops with sauce."
   ])
+
+  const footerRecipes=[
+    new Recipe(
+      "In hac habitasse platea dictumst.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt nisl ut nisi rutrum elementum non vitae arcu.",
+      "B",
+      [
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc"
+      ]
+      ),
+    new Recipe(
+      "Morbi nec posuere mauris.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt nisl ut nisi rutrum elementum non vitae arcu.",
+      "C",
+      [
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc"
+      ]
+      ),
+    new Recipe(
+      "Curabitur euismod et ligula vitae tincidunt.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt nisl ut nisi rutrum elementum non vitae arcu.",
+      "E",
+      [
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc"
+      ]
+      ),
+    new Recipe(
+      "Nam odio augue, laoreet at purus eu,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt nisl ut nisi rutrum elementum non vitae arcu.",
+      "D",
+      [
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+        "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc"
+      ]
+      ),
+      new Recipe(
+        "In hac habitasse platea dictumst.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt nisl ut nisi rutrum elementum non vitae arcu.",
+        "F",
+        [
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc"
+        ]
+        ),
+      new Recipe(
+        "Morbi nec posuere mauris.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt nisl ut nisi rutrum elementum non vitae arcu.",
+        "G",
+        [
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc",
+          "Suspendisse in nisi nec arcu accumsan feugiat. Nulla vehicula tempor orci. Pellentesque non risus et nulla elementum ultrices. Nullam at commodo erat. Proin tristique, risus quis mollis euismod, arcu mi consequat purus, sed interdum turpis quam in nunc"
+        ]
+        ),
+  ]
+
   // 3. Validate your object
   function validation(recipe){
     if(!recipe ||typeof(recipe)!="object" ) return "1"
@@ -32,11 +102,12 @@ const mainRecipes=new Recipe(
     return true;
   }
   // 4. Generate the template
-  function generate(recipe){
+  function generate(recipe,boxFooterData){
     if(!validation(recipe)){
       alert("Information is not enough or valid!!")
       return
     }
+
     let tmpInstruction="";
     let i=1;
     recipe.step.forEach((item)=>{
@@ -78,13 +149,39 @@ const mainRecipes=new Recipe(
   </div>`
 
   }
+  function generateFooter(footerData){
+    footerData.forEach(item=>{
+      if(!validation(item)){
+        alert("Information is not enough or valid!!")
+        return
+      }
+    })
+    const boxWrapper=document.querySelector(".box_wrapper")
+    let i=0;
+    boxWrapper.innerHTML="";
+    footerData.forEach((item)=>{
+      boxWrapper.innerHTML+=
+      `
+      <button class="btn" data-index=${i}>${item.title}</button>
+      `
+      i++;
+    })
+    boxWrapper.addEventListener("click",(e)=>{
+      target=e.target;
+      if(target.classList.contains("btn")){
+        generate(footerRecipes[target.getAttribute("data-index")])
+      }
+    })
+    
+  }
   // 5. Create new object
   
-  function render(recipe) {
+  function render() {
     // console.log("render");
     // Generate your object ....
     // Hide button generate
     generate(mainRecipes)
+    generateFooter(footerRecipes)
     const buttonGenerate = document.getElementById("button-generate");
     buttonGenerate.style.display = "none";
     // Display template
